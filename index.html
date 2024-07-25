@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Portfolio Website</title>
+    <!---custom css link---->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!------Header Section------>
+    <header>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!---------Home Section--------------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Leena</h1>
+            <p>A third year student pursuing bachelor's degree at SRM University </p>
+            <div class="button">
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!---------about Section --------------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2><br>
+            <p>
+                I am a third-year B.Tech student with a strong passion for web development.
+                I have honed a diverse skill set that bridges both technical and 
+                soft skills, enabling me to tackle complex challenges and work effectively in team 
+                environments.
+                My blend of technical expertise and interpersonal skills makes me well-suited for
+                a career in web development, and I am excited to continue growing and contributing to  
+                this dynamic field.
+            </p>
+            <div class="col-2">
+                <div class="about-text">
+                    <h2>Skills</h2><br>
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">C</span>
+                    <span class="skill">C++</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">J.Query</span>
+                    <span class="skill">Data Structures</span>
+                   
+                </div>
+            </div><br>
+            <a href="#" class="btn">More About</a>
+        </div>
+    </section>
+
+    <!-----------Education Section-------------->
+    <section class="Education" id="Education">
+      <div class="main-text">
+         <h2><span>Educational</span>Qualifications</h2><br>
+      </div>
+      <br><br>
+      <div>
+         <table border="1">
+              <thead>
+                 <tr>
+                      <b><th>Qualification</th>
+                         <th>Passed Out Year</th>
+                         <th>Percentage</th></b>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>10th class</td>
+                    <td>2020</td>
+                    <td>95%</td>
+                </tr>
+                <tr>
+                    <td>12th class</td>
+                    <td>2022</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>Btech second year</td>
+                    <td>2024</td>
+                    <td>cgpa- 8.5</td>
+                </tr>
+            </table><BR>
+        </div>
+    </section>
+       
+     
+
+  <!-----------Portfolio Section--------------->
+  <section class="projects" id="projects">
+    <div class="main-text">
+        <h2><span>latest</span>Project</h2>
+    </div>
+    <div class="projects-content">
+        <div class="row">
+            <img src="img/project1.jpg" >
+            <div class="layer">
+                <h5>Bus Reservation</h5>
+                <p>Developed the project using C++ language. It serves as a fundamental framework for a 
+                    bus management system.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/project2.jpg" >
+            <div class="layer">
+                <h5>Maze-solve</h5>
+                <p>Implemented a MAZE-SOLVING algorithm in C using stacks, allowing a mouse to navigate
+                     through the maze, handle dead ends, and find alternative paths.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/project3.jpg" >
+            <div class="layer">
+                <h5>Netflix Homepage</h5>
+                <p>Created a replica of the Netflix homepage using HTML and CSS, focusing on accurate 
+                    design implementation and responsiveness.
+                </p>
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/project4.jpg" >
+            <div class="layer">
+                <h5>Calender</h5>
+                <p>Developed CALENDAR Project using C language. It shows whether the given input year is
+                     leap year or a Non-leap year.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/project5.jpg" >
+            <div class="layer">
+                <h5>Online Vaccine Registration System</h5>
+                <p>Designed and developed a vaccine registration system from scratch using C programming language.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img/project6.jpg" >
+            <div class="layer">
+                <h5>Instagram Clone</h5>
+                <p>Working currently on making a fully functional instagram clone.</p>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+ <!------------------Contact section------------>
+ <section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <br> <br>
+        <div class="list">
+            <li><a href="#">8302255387</a></li>
+            <li><a href="#">leenareddy_venna@srmap.edu.in</a></li>
+        </div>
+
+        <div class="contact-icons">
+            <a href="https://github.com/leena2504"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/leena-reddy-a6684b258​"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.instagram.com/leena__2504/?hl=en"><i class='bx bxl-instagram-alt' ></i></a>
+        </div>
+
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="name" placeholder="Your Name " required>
+            <input type="email" placeholder="Your Email " required>
+            <input type="number" placeholder="your Mobile Number" required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+            <input type="submit" value="Send Message" class="submit" required>
+        </form>
+
+    </div>
+ </section>
+
+  <!---------End Section---------->
+  <section class="end">
+    <div class="about-text">
+        <a href="cv.jpg" class="btn">Download CV</a>
+    </div>
+    <div class="top">
+        <a href="#home" class="btn"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+  </section>
+
+  <script>
+    // Toggle menu on small screens
+    const menuIcon = document.getElementById('menu-icon');
+    const navlist = document.querySelector('.navlist');
+
+    menuIcon.addEventListener('click', () => {
+        navlist.classList.toggle('open');
+    });
+  </script>
+
+</body>
+
+</html> 
